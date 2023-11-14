@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:controller="application.TelaGameController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="campo" layoutX="277.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="tempo" layoutX="120.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Button fx:id="cima" layoutX="274.0" layoutY="263.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="baixo" layoutX="274.0" layoutY="306.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="esquerda" layoutX="211.0" layoutY="288.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="direita" layoutX="326.0" layoutY="288.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>
